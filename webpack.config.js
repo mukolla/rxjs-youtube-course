@@ -14,5 +14,6 @@ module.exports = {
     new HTMLPlugin({
       template: './src/index.html'
     })
-  ]
+  ],
+  devtool: 'eval-cheap-source-map'
 }
